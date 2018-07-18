@@ -8,6 +8,15 @@
 
 import Foundation
 
+/*
+	Based on this article:
+		https://medium.com/newindustrialist/redux-in-swift-pt-1-what-why-and-how-b52e6fd29440
+	Great code samples from the article:
+		https://gist.github.com/alexobenauer/fcc8387cb505d90901279eda482914ed#file-simpleredux-swift
+		https://gist.github.com/alexobenauer/8990d11ef23fe3c78ebd5fca88fbe954#file-simplereduxexample-swift
+		https://gist.github.com/alexobenauer/987950387e58486ce08646d4730dde39#file-simplereduxexampleviewcontroller-swift
+*/
+
 protocol Action { }
 
 protocol State { }
